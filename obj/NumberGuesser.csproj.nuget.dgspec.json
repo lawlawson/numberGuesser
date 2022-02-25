@@ -14,7 +14,7 @@
         "outputPath": "/Users/lawrencenarh-lawson/Projects/NumberGuesser/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/lawrencenarh-lawson/.config/NuGet/NuGet.Config"
+          "/Users/lawrencenarh-lawson/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

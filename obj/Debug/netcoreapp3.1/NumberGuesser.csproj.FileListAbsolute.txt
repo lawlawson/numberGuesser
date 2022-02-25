@@ -11,3 +11,4 @@
 /Users/lawrencenarh-lawson/Projects/NumberGuesser/obj/Debug/netcoreapp3.1/NumberGuesser.dll
 /Users/lawrencenarh-lawson/Projects/NumberGuesser/obj/Debug/netcoreapp3.1/NumberGuesser.pdb
 /Users/lawrencenarh-lawson/Projects/NumberGuesser/obj/Debug/netcoreapp3.1/NumberGuesser.genruntimeconfig.cache
+/Users/lawrencenarh-lawson/Projects/NumberGuesser/bin/Debug/netcoreapp3.1/NumberGuesser
