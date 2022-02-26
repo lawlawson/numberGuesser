@@ -44,6 +44,12 @@ namespace NumberGuesser
                 }
             }
 
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+
+            Console.WriteLine("You are CORRECT!!!");
+
+            Console.ResetColor();
+
         }
     }
 }
