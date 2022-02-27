@@ -22,7 +22,11 @@ namespace NumberGuesser
 
             Console.WriteLine("Hello {0}, let's play a game", inputName);
 
-            int correctNumber = 6;
+            //int correctNumber = 6;
+
+            Random random = new Random();
+
+            int correctNumber = random.Next(1, 10);
 
             int initGuess = 0;
 
