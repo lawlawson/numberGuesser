@@ -22,7 +22,7 @@ namespace NumberGuesser
 
             Console.WriteLine("Hello {0}, let's play a game", inputName);
 
-            //int correctNumber = 6;
+            while(true) { 
 
             Random random = new Random();
 
@@ -67,6 +67,27 @@ namespace NumberGuesser
             Console.WriteLine("You are CORRECT!!!");
 
             Console.ResetColor();
+
+            Console.WriteLine("Play again [Y or N]");
+
+            string answer = Console.ReadLine().ToUpper();
+
+                if(answer == "Y")
+                {
+                    continue;
+                }
+                else if(answer == "N")
+                {
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+
+
+
+            }
 
         }
     }
