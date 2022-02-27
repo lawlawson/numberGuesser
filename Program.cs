@@ -28,20 +28,34 @@ namespace NumberGuesser
 
             Console.WriteLine("Guess a number between 1 and 10");
 
+
             while(initGuess != correctNumber)
             {
                 string input = Console.ReadLine();
 
-                initGuess = Int32.Parse(input);
-
-                if(initGuess != correctNumber)
+                if (!int.TryParse(input, out initGuess))
                 {
                     Console.ForegroundColor = ConsoleColor.DarkRed;
 
-                    Console.WriteLine("Wrong number please try again ");
+                    Console.WriteLine("Please enter a valid number");
+
+                    Console.ResetColor();
+
+                    continue;
+                }
+
+                initGuess = Int32.Parse(input);
+
+                if (initGuess != correctNumber)
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+
+                    Console.WriteLine("Wrong number please try again");
 
                     Console.ResetColor();
                 }
+
+
             }
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
